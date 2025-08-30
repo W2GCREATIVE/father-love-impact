@@ -4,7 +4,7 @@ import About from "@/components/About";
 import HowItWorks from "@/components/HowItWorks";
 import Impact from "@/components/Impact";
 import Participate from "@/components/Participate";
-import Testimonials from "@/components/Testimonials";
+import EnhancedTestimonials from "@/components/EnhancedTestimonials";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -17,7 +17,7 @@ const Index = () => {
         <HowItWorks />
         <Impact />
         <Participate />
-        <Testimonials />
+        <EnhancedTestimonials />
       </main>
       <Footer />
     </div>

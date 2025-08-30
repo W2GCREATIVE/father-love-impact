@@ -25,7 +25,8 @@ const Footer = () => {
       { label: "Política de Privacidade", href: "#" },
       { label: "Termos de Uso", href: "#" },
       { label: "Transparência", href: "#" },
-      { label: "FAQ", href: "#" }
+      { label: "FAQ", href: "#" },
+      { label: "Componentes Demo", href: "/components-demo" }
     ]
   };
 
@@ -42,6 +43,9 @@ const Footer = () => {
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
+    } else {
+      // Handle internal routing
+      window.location.href = href;
     }
   };
 
